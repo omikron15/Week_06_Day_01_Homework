@@ -76,3 +76,7 @@ fabric.properties
 # Editor-based Rest Client
 .idea/httpRequests
 
+.gradle/
+.idea/vcs.xml
+src/main/resources/
+src/test/resources/
