@@ -20,6 +20,8 @@ public class WaterBottleTest {
     public void test_drink(){
         testWaterBottle.drink();
         assertEquals(90, testWaterBottle.getVolume());
+        testWaterBottle.drink();
+        assertEquals(80, testWaterBottle.getVolume());
     }
 
     @Test

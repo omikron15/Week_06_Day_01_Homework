@@ -18,7 +18,7 @@ public class Printer {
 
     public void print(int pages, int copies){
         int total_pages = (pages * copies);
-        if ((total_pages < this.paperVolume)&(total_pages < this.tonerVolume)){
+        if ((total_pages < this.paperVolume)&&(total_pages < this.tonerVolume)){
             this.paperVolume -= total_pages;
             this.tonerVolume -= total_pages;
         }
